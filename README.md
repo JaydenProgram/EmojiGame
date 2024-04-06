@@ -39,7 +39,3 @@ This project implements a real-time hand gesture recognition application using A
 - [ml5.js](https://ml5js.org/): JavaScript library for machine learning.
 - [JavaScript ES6+](https://developer.mozilla.org/en-US/docs/Web/JavaScript): Language used for application development.
 - [HTML5/CSS3](https://www.w3.org/standards/webdesign/htmlcss): Used for creating the user interface.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
