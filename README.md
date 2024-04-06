@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a real-time hand gesture recognition application using AI and machine learning techniques. The application captures pose data from a webcam, processes it using pose detection models, and classifies the detected gestures in real-time. The project aims to demonstrate the feasibility and practicality of using AI for interactive applications, particularly in the domain of gesture recognition.
+This project implements a real-time hand gesture recognition application using AI and machine learning techniques. The application captures pose data from a webcam, processes it using pose detection models, and classifies the detected gestures in real-time. The project shows how pose detection can be used to play basic games like falling emojis for example.
 
 ## Features
 
