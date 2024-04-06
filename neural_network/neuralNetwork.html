@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Hand Detection</h1>
+</header>
+
+<main>
+    <section id="demos">
+        <div id="liveView" class="videoView">
+            <div class="buttons">
+                <button id="webcamButton" class="button">Start Game</button>
+                <button id="trainingButton" class="button">Start Training</button>
+                <input id="label" class="input" placeholder="Pose naam">
+                <button id="importData" class="button">Import & Start Training</button>
+                <button id="predictPose" class="button">Predict Pose</button>
+                <button id="saveModel" class="button">Save Model</button>
+            </div>
+            <div id="predictions"></div>
+            <div class="video-container">
+                <video id="webcam" autoplay playsinline></video>
+                <canvas class="output_canvas" id="output_canvas"></canvas>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- JavaScript Imports -->
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision/vision_bundle.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
