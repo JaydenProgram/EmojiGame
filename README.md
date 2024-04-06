@@ -1,4 +1,4 @@
-# Real-Time Hand Gesture Recognition Application
+# Real-Time Hand Gesture Recognition Game
 
 ## Overview
 
