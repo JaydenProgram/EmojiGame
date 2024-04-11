@@ -279,5 +279,5 @@ retryButton.addEventListener('click', () => {
     healthBar.style.width = `${health}%`; // Reset health bar width
     healthBar.style.backgroundColor = 'green'; // Reset health bar color
     webcamRunning = true; // Restart the game
-    predictWebcam(); // Restart predictions
+    predictWebcam(); // Restart predictionsh
 });
